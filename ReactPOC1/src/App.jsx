@@ -7,7 +7,8 @@ import Simpleform from './Components/Simpleform'
 import Advanceform1 from './Components/Advanceform1'
 import TemperaatureInput from './Components/TemperaatureInput'
 import TemperatureDisplay from './Components/TemperatureDisplay'
-// import UseEffectHook from './Components/UseEffectHook'
+import UseEffectHook from './Components/UseEffectHook'
+import ReactRouterDOM from './Components/ReactRouterDOM'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,10 +24,10 @@ function App() {
     {/* <Counter></Counter> */}
     {/* <Simpleform></Simpleform> */}
     {/* <Advanceform1></Advanceform1> */}
-    <TemperaatureInput temp = {temp} updateTemp= {updateTemp}></TemperaatureInput>
-    <TemperatureDisplay temp= {temp}></TemperatureDisplay>
+    {/* <TemperaatureInput temp = {temp} updateTemp= {updateTemp}></TemperaatureInput> */}
+    {/* <TemperatureDisplay temp= {temp}></TemperatureDisplay> */}
     {/* <UseEffectHook></UseEffectHook> */}
-
+    <ReactRouterDOM></ReactRouterDOM>
     </>
   )
 }
