@@ -1,9 +1,10 @@
 import './App.css'
+import TodoRedux from './components/TodoRedux'
 
 
 const App = ()=>{
   return(
-    <h1>Hello</h1>
+    <TodoRedux></TodoRedux>
   )
 
 }

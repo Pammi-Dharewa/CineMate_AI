@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Routing from './components/Routing'
+import Form1 from "./Component/Form1"
+import Form2 from "./Component/Form2"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Routing></Routing>
-    </>
+    <h1>Hello</h1>
+    {/* <Form1></Form1> */}
+    <Form2></Form2>
+     </>
   )
 }
 
