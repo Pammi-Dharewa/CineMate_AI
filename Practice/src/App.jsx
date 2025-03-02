@@ -1,18 +1,16 @@
-import DetailPage from './components/Pages/DetailPage';
-import HomePage from './components/Pages/HomePage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
 
 function App() {
+  // const [count, setCount] = useState(0)
+
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/details/:id" element={<DetailPage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+    <>
+    <h1 className='text-red-700'>Hello</h1>
+    </>
+  )
 }
 
-export default App;
+export default App

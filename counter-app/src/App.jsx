@@ -1,9 +1,14 @@
 import './App.css'
+// import Counter from './components/Counter'
+import Todolist from './components/Todolist'
 
 
 const App = ()=>{
   return(
-    <h1>Hello</h1>
+    <>
+        {/* <Counter></Counter> */}
+        <Todolist></Todolist>
+    </>
   )
 
 }
